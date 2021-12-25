@@ -42,4 +42,4 @@ jobs:
       - name: Build setuptools
         run: python -sBm build -w
       - name: Run tests
-        run: python -m pytest -ra setuptools --pyargs setuptools.tests
+        run: python -m pytest -ra setuptools --pyargs setuptools.tests --find-dependencies
